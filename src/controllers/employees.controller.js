@@ -32,7 +32,7 @@ export const createEmployee = async (req, res) => {
   const { name, role, email, password } = req.body
 
   try {
-    const [rows] = await pool.query('INSERT INTO employees (name, role, email, password) VALUES (?, ?)', [name, role, email, password])
+    const [rows] = await pool.query('INSERT INTO employees (name, role, email, password) VALUES (?, ?, ?, ?)', [name, role, email, password])
     res.send({
       id: rows.insertId,
       name,
