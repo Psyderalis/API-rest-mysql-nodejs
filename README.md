@@ -1,16 +1,16 @@
-##Obtener empleados
+## Obtener empleados
 
-Method: GET
+#### Method: GET
 https://api-rest-mysql-nodejs-production.up.railway.app/api/employees
 
-##Obtener un empleado
+## Obtener un empleado
 
-Method: GET
+#### Method: GET
 https://api-rest-mysql-nodejs-production.up.railway.app/api/employees/:id
 
-##Crear un empleado
+## Crear un empleado
 
-Method: POST
+#### Method: POST
 https://api-rest-mysql-nodejs-production.up.railway.app/api/employees/
 
 Body: name and salary.
@@ -20,15 +20,14 @@ Example:
  "salary": 2000
 }
 
-##Borrar un empleado
+## Borrar un empleado
 
-Method: DELETE
+#### Method: DELETE
 https://api-rest-mysql-nodejs-production.up.railway.app/api/employees/:id
 
-##Actualizar un empleado
+## Actualizar un empleado
 
-Method: PATCH
-
+#### Method: PATCH
 https://api-rest-mysql-nodejs-production.up.railway.app/api/employees/:id
 
 Body: name and/or salary.
